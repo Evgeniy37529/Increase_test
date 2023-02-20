@@ -1,0 +1,27 @@
+@import url('./header.css');
+@import url('./normalize.css');
+@import url('./left.css');
+@import url('./center.css');
+@import url('./footer.css');
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.main {
+    padding-top: 25px;
+}
+
+@media (max-width: 960px) {
+    .container {
+        margin: 0 10px;
+    }
+}

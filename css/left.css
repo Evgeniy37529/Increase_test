@@ -1,0 +1,36 @@
+
+
+.left {
+    width: 185px;
+    height: fit-content;
+    padding: 0 25px 0 13px;
+    flex-shrink: 0;
+    background-color: #777777;
+    color: #fff;
+}
+
+.left__title {
+    font-size: 14px;
+}
+
+.nav {
+    padding: 0;
+    list-style-type: none;
+}
+
+.nav__item {
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.nav__item:hover {
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .left {
+        width: auto;
+        height: auto;
+        margin-bottom: 25px;
+    }
+}
